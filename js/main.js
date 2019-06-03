@@ -9,7 +9,8 @@ $(document).ready(function(){
 
 });
 
-$('#rpq1').hide().fadeIn(9000);
+$('#rpq1').hide().fadeIn(6000);
+$('#rpq2').hide().fadeIn(9000);
 
 $('h1').css("color", "red");
 

@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Anton|Baloo+Da&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton|Roboto:100,400|Baloo+Da&display=swap");
 .navbar {
-  background-color: rgba(255, 235, 238, 0.25);
+  background-color: rgba(236, 239, 241, 0.25);
   position: fixed;
   width: 100%; }
 
@@ -13,8 +13,8 @@ ul li a {
   background-size: cover;
   height: 100vh;
   width: 100%; }
-  .jumbotron #rpq1 img {
-    width: 35px; }
+  .jumbotron h2 {
+    color: gray; }
 
 .vertical-center {
   min-height: 100%;
@@ -28,16 +28,32 @@ ul li a {
   border: 1px solid #ccc;
   padding: 20px; }
 
-h2 {
-  color: #ef5350; }
-
 .baloo {
   font-family: 'Baloo Da', cursive;
   color: gray;
   font-size: 28px; }
 
+.robot1 {
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+  font-size: 112px;
+  font-weight: 100;
+  line-height: 50px;
+  margin-top: 250px; }
+
+.robot2 {
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+  font-size: 40px;
+  font-weight: 10;
+  line-height: 40px; }
+
 .card {
   z-index: -1; }
+
+.icoon {
+  font-size: 50px;
+  color: white; }
 
 .timeline {
   list-style: none;

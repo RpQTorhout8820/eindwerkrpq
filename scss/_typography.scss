@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|Baloo+Da&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto:100,400|Baloo+Da&display=swap');
 
 .baloo{
     font-family: 'Baloo Da', cursive;
@@ -7,6 +7,29 @@
    
 }
 
+
+.robot1{
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-size: 112px;
+   font-weight: 100;
+   line-height:50px;
+   margin-top: 250px;
+   }
+
+.robot2{
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-size: 40px;
+   font-weight: 10;
+   line-height: 40px;
+   }
+
 .card{
     z-index: -1;
+}
+
+.icoon{
+    font-size: 50px;
+    color: white;
 }

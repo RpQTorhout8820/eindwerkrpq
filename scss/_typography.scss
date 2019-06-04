@@ -10,7 +10,7 @@
 
 .robot1{
     font-family: 'Roboto', sans-serif;
-    color: gray;
+    color: $rood;
     font-size: 112px;
    font-weight: 100;
    line-height:50px;
@@ -19,17 +19,36 @@
 
 .robot2{
     font-family: 'Roboto', sans-serif;
-    color: gray;
+    color: $rood;
     font-size: 40px;
    font-weight: 10;
    line-height: 40px;
    }
 
-.card{
+   .robot2w{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 40px;
+   font-weight: 100;
+   line-height: 60px;
+   text-align: center;
+   width: 60%;
+   margin: auto;
+   background-color: $primary;
+   }
+
+   .card{
     z-index: -1;
 }
 
 .icoon{
     font-size: 50px;
     color: white;
+}
+
+
+.icoon__primary{
+    color: $primary;
+    text-align: center;
+
 }

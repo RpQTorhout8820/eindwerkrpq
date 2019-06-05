@@ -9,8 +9,12 @@ $(document).ready(function(){
 
 });
 
+
 $('#rpq1').hide().fadeIn(3000);
 $('#rpq2').hide().fadeIn(7000);
+$('.drukwerk').on('hover', function(){
+    $('.btn-warning').addClass('kleur3');
+})
 
 // $('.nav-link').css("color", "white").css("text-indent", "5px");
 

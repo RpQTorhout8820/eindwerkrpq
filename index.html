@@ -13,7 +13,7 @@
   <title>RPQ solutions - Hoe kunnen we je helpen?</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#menu">
   <!-- navigation -->
   <nav class="navbar navbar-expand-sm   navbar-light ">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
@@ -233,7 +233,7 @@
   <div id="drukken" class="container mt-5" >
           <div class="row  mt-5" >
              <div class="col-md-12 drukwerk text-center pt-3 ">
-                <div class=" robot2d  col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12  mt-3 ">
+                <div class=" robot2d center-block col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12  mt-3 ">
                     Drukwerk aan scherpe prijzen
                 </div>
                  <div  class="btn-danger col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-2 p-2  d-flex float-right align-items-end">
@@ -373,11 +373,19 @@
 </div>
 
  
- 
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
+
+
+ <script>
+$('.navbar-nav>li>a').on('click', function(){
+   // alert('hello!');
+   $('.navbar-collapse').collapse('hide');
+});
+</script>
+
 </body>
 
 </html>

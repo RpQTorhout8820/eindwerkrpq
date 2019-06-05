@@ -13,33 +13,87 @@
     color: $rood;
     font-size: 112px;
    font-weight: 100;
-   line-height:50px;
+   line-height:70px;
    margin-top: 250px;
    }
 
 .robot2{
     font-family: 'Roboto', sans-serif;
     color: $rood;
-    font-size: 40px;
+    font-size: 30px;
    font-weight: 10;
-   line-height: 40px;
+   line-height: 30px;
    }
 
-   .robot2w{
+.robot2w{
     font-family: 'Roboto', sans-serif;
-    color: white;
-    font-size: 40px;
+   color: white;
+   font-size: 40px;
    font-weight: 100;
-   line-height: 60px;
+   line-height: 50px;
    text-align: center;
    width: 60%;
    margin: auto;
-   background-color: $primary;
+   background-color: $primary__transparent;
+
+   &:hover{
+    background-color: $primary
+        }
+
+   }
+   .robot2ww{
+    font-family: 'Roboto', sans-serif;
+   color: white;
+   font-size: 40px;
+   font-weight: 100;
+   line-height: 50px;
+   text-align: center;
+   width: 60%;
+   margin: auto;
+   background-color: $warning__transparent;
+
+   &:hover{
+    background-color: $warning
+        }
+
    }
 
-   .card{
-    z-index: -1;
-}
+   .robot2s{
+    font-family: 'Roboto', sans-serif;
+   color: white;
+   font-size: 40px;
+   font-weight: 100;
+   line-height: 50px;
+   text-align: center;
+   width: 60%;
+   margin: auto;
+   background-color: $success__transparent;
+
+   &:hover{
+    background-color: $success__transparent
+        }
+
+   }
+
+
+   .robot2d{
+    font-family: 'Roboto', sans-serif;
+   color: white;
+   font-size: 40px;
+   font-weight: 100;
+   line-height: 50px;
+   text-align: center;
+   width: 60%;
+   margin: auto;
+   background-color: $danger__transparent;
+
+   &:hover{
+    background-color: $danger__transparent
+        }
+
+   }
+
+
 
 .icoon{
     font-size: 50px;
@@ -52,3 +106,4 @@
     text-align: center;
 
 }
+

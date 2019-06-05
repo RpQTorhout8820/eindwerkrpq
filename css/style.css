@@ -1,8 +1,67 @@
 @import url("https://fonts.googleapis.com/css?family=Anton|Roboto:100,400|Baloo+Da&display=swap");
+.blue {
+  background-color: #007bff; }
+
+a#link1:hover {
+  color: white;
+  background-color: #17a2b8; }
+
+a#link2:hover {
+  color: white;
+  background-color: #007bff; }
+
+a#link3:hover {
+  color: white;
+  background-color: #ffc107; }
+
+a#link4:hover {
+  color: white;
+  background-color: #28a745; }
+
+a#link5:hover {
+  color: white;
+  background-color: #dc3545; }
+
+a#link6:hover {
+  color: white;
+  background-color: #17a2b8; }
+
+.btn-primary {
+  background-color: rgba(0, 123, 255, 0.55);
+  color: white; }
+
+.btn-primary:hover {
+  background-color: #007bff; }
+
+.btn-warning {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: white; }
+
+.btn-warning:hover {
+  background-color: rgba(255, 193, 7, 0.75);
+  color: white; }
+
+.btn-success {
+  background-color: rgba(40, 167, 69, 0.25);
+  color: white; }
+
+.btn-success:hover {
+  background-color: #28a745;
+  color: white; }
+
+.btn-danger {
+  background-color: rgba(220, 53, 69, 0.25);
+  color: white; }
+
+.btn-success:hover {
+  background-color: #dc3545;
+  color: white; }
+
 .navbar {
-  background-color: rgba(236, 239, 241, 0.25);
+  background-color: white;
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  z-index: 1; }
 
 ul li a {
   margin-right: 20px; }
@@ -34,6 +93,24 @@ ul li a {
   height: 600px;
   width: 100vw; }
 
+.webdesign {
+  background: url("../img/woman.jpg") no-repeat 0 0;
+  background-size: cover;
+  height: 600px;
+  width: 100vw; }
+
+.conversie {
+  background: url("../img/conversie.jpg") no-repeat 0 0;
+  background-size: cover;
+  height: 600px;
+  width: 100vw; }
+
+.qr {
+  background: url("../img/qr.png") no-repeat 0 0;
+  background-size: cover;
+  height: 600px;
+  width: 100vw; }
+
 .baloo {
   font-family: 'Baloo Da', cursive;
   color: gray;
@@ -44,36 +121,74 @@ ul li a {
   color: #ef5350;
   font-size: 112px;
   font-weight: 100;
-  line-height: 50px;
+  line-height: 70px;
   margin-top: 250px; }
 
 .robot2 {
   font-family: 'Roboto', sans-serif;
   color: #ef5350;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 10;
-  line-height: 40px; }
+  line-height: 30px; }
 
 .robot2w {
   font-family: 'Roboto', sans-serif;
   color: white;
   font-size: 40px;
   font-weight: 100;
-  line-height: 60px;
+  line-height: 50px;
   text-align: center;
   width: 60%;
   margin: auto;
-  background-color: #007BFF; }
+  background-color: rgba(0, 123, 255, 0.55); }
+  .robot2w:hover {
+    background-color: #007bff; }
 
-.card {
-  z-index: -1; }
+.robot2ww {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 50px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.25); }
+  .robot2ww:hover {
+    background-color: #ffc107; }
+
+.robot2s {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 50px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(40, 167, 69, 0.25); }
+  .robot2s:hover {
+    background-color: rgba(40, 167, 69, 0.25); }
+
+.robot2d {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 50px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(220, 53, 69, 0.25); }
+  .robot2d:hover {
+    background-color: rgba(220, 53, 69, 0.25); }
 
 .icoon {
   font-size: 50px;
   color: white; }
 
 .icoon__primary {
-  color: #007BFF;
+  color: #007bff;
   text-align: center; }
 
 .timeline {

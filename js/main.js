@@ -9,9 +9,10 @@ $(document).ready(function(){
 
 });
 
-$('#rpq1').hide().fadeIn(6000);
-$('#rpq2').hide().fadeIn(9000);
+$('#rpq1').hide().fadeIn(3000);
+$('#rpq2').hide().fadeIn(7000);
 
-$('h1').css("color", "red");
+// $('.nav-link').css("color", "white").css("text-indent", "5px");
+
 
 

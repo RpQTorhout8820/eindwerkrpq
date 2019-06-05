@@ -1,15 +1,23 @@
 
 
 
+
 .navbar{
-    background-color: rgba(236,239,241 ,.25);
+    background-color: white;
+    // background-color: rgba(236,239,241 ,.25);
     position: fixed;
     width: 100%;
+    z-index: 1;
+  
+
+
 }
 
 ul li a{
-    margin-right: 20px; //voor navbar
-    }
+    margin-right: 20px; //voor navbar   
+}
+
+
 
 .jumbotron{
     // background-color: red;
@@ -26,14 +34,12 @@ ul li a{
 }
 
 
+
 .vertical-center {
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
     min-height: 100vh; /* These two lines are counted as one :-)       */
-  
     display: flex;
     align-items: center;
-
-
   }
 
 .box{
@@ -46,10 +52,25 @@ ul li a{
     background-size: cover;
     height: 600px;
     width: 100vw;
-    
-
 }
 
-.drukwerkb{
-    
+.webdesign{
+    background: url("../img/woman.jpg") no-repeat 0 0;
+    background-size: cover;
+    height: 600px;
+    width: 100vw;
+}
+
+.conversie{
+    background: url("../img/conversie.jpg") no-repeat 0 0;
+    background-size: cover;
+    height: 600px;
+    width: 100vw;
+}
+
+.qr{
+    background: url("../img/qr.png") no-repeat 0 0;
+    background-size: cover;
+    height: 600px;
+    width: 100vw;
 }

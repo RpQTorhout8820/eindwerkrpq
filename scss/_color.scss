@@ -79,7 +79,8 @@ $rood: rgba(239,83,80 ,1);
 $primary__transparent:   rgba(0, 123, 255, .55) !default;
 $warning__transparent:   rgba(255, 255, 255, .25) !default;
 $success__transparent:   rgba(40, 167, 69, .25) !default;
-$danger__transparent:   rgba(220, 53, 69, .25) !default;
+$danger__transparent:   rgba(128, 128, 128, .65) !default;
+// $danger__transparent:   rgba(220, 53, 69, .25) !default;
 $warning2:   rgba(255, 193, 7, .75) !default;
 
 
@@ -89,36 +90,39 @@ $warning2:   rgba(255, 193, 7, .75) !default;
   }
 
 
+  //home-knop
   a#link1:hover{
     color: white;
     background-color: $info;
 }
 
 
-  a#link2:hover{
+//drukwerk  
+a#link2:hover{
+    color: white;
+    background-color: $danger;
+}
+
+//Webdesign
+a#link3:hover{
     color: white;
     background-color: $primary;
 }
 
-a#link3:hover{
-    color: white;
-    background-color: $warning;
-}
-
-
+//Conversie
 a#link4:hover{
     color: white;
     background-color: $success;
 }
 
-
+//Foto-herinnering
 a#link5:hover{
     color: white;
-    background-color: $danger;
+    background-color: $warning;
 }
 
 
-
+//Contact
 a#link6:hover{
     color: white;
     background-color: $info;

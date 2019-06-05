@@ -8,11 +8,11 @@ a#link1:hover {
 
 a#link2:hover {
   color: white;
-  background-color: #007bff; }
+  background-color: #dc3545; }
 
 a#link3:hover {
   color: white;
-  background-color: #ffc107; }
+  background-color: #007bff; }
 
 a#link4:hover {
   color: white;
@@ -20,7 +20,7 @@ a#link4:hover {
 
 a#link5:hover {
   color: white;
-  background-color: #dc3545; }
+  background-color: #ffc107; }
 
 a#link6:hover {
   color: white;
@@ -50,7 +50,7 @@ a#link6:hover {
   color: white; }
 
 .btn-danger {
-  background-color: rgba(220, 53, 69, 0.25);
+  background-color: rgba(128, 128, 128, 0.65);
   color: white; }
 
 .btn-success:hover {
@@ -179,9 +179,9 @@ ul li a {
   text-align: center;
   width: 60%;
   margin: auto;
-  background-color: rgba(220, 53, 69, 0.25); }
+  background-color: rgba(128, 128, 128, 0.65); }
   .robot2d:hover {
-    background-color: rgba(220, 53, 69, 0.25); }
+    background-color: rgba(128, 128, 128, 0.65); }
 
 .icoon {
   font-size: 50px;

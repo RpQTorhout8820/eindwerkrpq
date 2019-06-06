@@ -6,17 +6,14 @@ a#link1:hover {
   color: white;
   background-color: #17a2b8; }
 
-a#link2:hover {
-  color: white;
-  background-color: #dc3545; }
+.druk {
+  color: rgba(255, 255, 255, 0.1); }
 
-a#link3:hover {
-  color: white;
-  background-color: #007bff; }
+.web {
+  color: rgba(255, 255, 255, 0.1); }
 
-a#link4:hover {
-  color: white;
-  background-color: #28a745; }
+.convert {
+  color: rgba(255, 255, 255, 0.1); }
 
 a#link5:hover {
   color: white;
@@ -37,8 +34,8 @@ a#link6:hover {
   background-color: rgba(255, 255, 255, 0.25);
   color: white; }
 
-.kleur3 {
-  background-color: rgba(255, 193, 7, 0.75);
+.kleur3b {
+  background-color: rgba(128, 128, 128, 0.65);
   color: white; }
 
 .btn-warning:hover {
@@ -186,7 +183,7 @@ ul li a {
   margin: auto;
   background-color: rgba(128, 128, 128, 0.65); }
   .robot2d:hover {
-    background-color: rgba(128, 128, 128, 0.65); }
+    background-color: #dc3545; }
 
 .icoon {
   font-size: 50px;

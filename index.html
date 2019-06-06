@@ -31,13 +31,13 @@
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" id="link3" href="#">Webdesign</a>
+          <a class="nav-link" id="link3" href="#webdesign">Webdesign</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="link4" href="#">Tekstconversie</a>
+          <a class="nav-link" id="link4" href="#conversie">Tekstconversie</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="link5" href="#foto">Fotoherinnering</a>
+          <a class="nav-link" id="link5" href="#vergeetjeniet">Fotoherinnering</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" id="link6" href="#">Contact</a>
@@ -238,10 +238,12 @@
   <div id="drukken" class="container-fluid mt-5" >
           <div class="row  mt-5" >
              <div class="col-md-12 drukwerk text-center pt-3 ">
-                <div class=" robot2d center-block col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12  mt-3 ">
+                <!-- <div class=" robot2d  kleur3b center-block col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12  mt-3 ">
                     Drukwerk aan scherpe prijzen
-                </div>
-                 <div  class="btn-danger col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-2 p-2  d-flex float-right align-items-end">
+                </div> -->
+                 <div class="druk  col-sm-4  col-md-4 col-lg-4 col-xl-4 col-12 mt-2 p-2  d-flex float-right flex-column align-items-end">
+                 <!-- <div  class="btn-danger col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-2 p-2  d-flex float-right align-items-end"> -->
+                   <h2>Drukwerk aan scherpe prijzen</h2>
                     <p>
                       Wij ontwerpen en drukken je reclame of familie-drukwerk... met een complete mix van papier en internet... Wil je een reclamefolder online plaatsen, maar je hebt geen eigen webstek... wij zorgen voor een oplossing.<br>
                       We bieden een scherpe prijs voor ontwerp en druk.<br>
@@ -271,11 +273,10 @@
  <div id="webdesign" class="container-fluid mt-5" >
     <div class="row  mt-5" >
        <div class="col-md-12 webdesign text-center pt-3 ">
-          <div class=" robot2w  col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12  mt-3 ">
-              Webdesign op maat
-          </div>
-           <div  class="btn-primary col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-2 p-2  d-flex float-right align-items-end">
-              <p>
+          
+           <div  class="web text-center textcolor-white col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-2 p-2  d-flex flex-column  align-items-center">
+            <h2>Webdesign op maat</h2>  
+            <p>
                   Ben je al op het www?<br>
                   Het wordt hoogtijd... mis de boot niet en laat je eigen website maken.
                   We maken een simpele en duidelijk overzichtelijke website voor je.<br>
@@ -309,10 +310,11 @@
     <div class="row  mt-5" >
        <div class="col-md-12 conversie text-center pt-3 ">
           <div class=" robot2w  col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12  mt-3 ">
-             Tekstconversie
+             
           </div>
-           <div  class="btn-primary col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-2 p-2  d-flex float-right align-items-end">
-              <p>
+           <div  class="convert col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-2 p-2  d-flex flex-column ">
+            <h2 class="text-center">Tekstconversie</h2> 
+            <p>
                  Wij helpen je tijd besparen bij het klaarmaken van de teksten voor het internet.<br>
                  Via een doorgedreven conversie zetten wij je teksten in een oogopslag om naar bruikbare tekst op een internetpagina. Neem contact met ons op en laat die vervelende taak aan onze over!
               </p>
@@ -335,14 +337,13 @@
 
 
 
- <div class="container-fluid mt-5">
+ <div id="vergeetjeniet" class="container-fluid mt-5">
     <div class="row">
        <div class="col-md-12 qr text-center pt-3" id="foto">
-          <div class=" robot2ww  col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12  mt-3 ">
-              Ik vergeet je niet!          </div>
-           <div  class="btn-warning p-2 offset-8 col-md-4 mt-5">
-             
-                <p >
+         
+           <div  class="notforget p-2 offset-8 col-md-4 mt-5">
+             <h2>Ik vergeet je niet!</h2>
+                <p>
                   Laat je geliefden niet vergeten en maak een webpagina gelinkt aan een QR-code.<br>
                   Plaats een foto samen met een QR-code op de gedenkplaats en maak een waardig eerbetoon.<br>
                   Het levensverhaal blijft voortbestaan! <br>
@@ -383,14 +384,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
-
-
- <script>
-$('.navbar-nav>li>a').on('click', function(){
-   // alert('hello!');
-   $('.navbar-collapse').collapse('hide');
-});
-</script>
 
 </body>
 

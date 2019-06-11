@@ -20,26 +20,22 @@
 
  <!-- css voor animation on scroll -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-<style>
 
-.tab2{
-  height: 500px;
-}
-</style>
 
 </head>
 
-<body data-spy="scroll" data-target="#menu">
+<body data-spy="scroll" data-target="#navbarNav">
   <!-- navigation -->
-  <nav class="navbar navbar-expand-sm   navbar-light ">
-    <a href="index.html" class="navbar-brand">RPQ solutions</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+  <nav class="navbar navbar-expand-md   fixed-top navbar-light ">
+    <div class="container-fluid">
+    <a href="#" class="navbar-brand">RPQ solutions</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
       aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav nav-pills nav-fill ml-auto mt-2 mt-lg-0">
         <li class="nav-item">
           <a class="nav-link" id="link1" href="#">&nbsp;Home <span class="sr-only">(current)</span></a>
         </li>
@@ -62,6 +58,7 @@
       </ul>
 
     </div>
+  </div>
   </nav>
 
   <!-- jumbotoron -->
@@ -424,7 +421,7 @@
  <div id="vergeetjeniet " class="container-fluid mt-5">
     <div class="row">
        <div class="col-md-12 qr text-center pt-3" id="foto">
-           <a href="http://ikvergeetjeniet.be" class="btn"><div  class="qrt text-center textcolor-white col-sm-12 col-md-12 col-lg-6 col-xl-4 col-12 mt-2 p-2  d-flex flex-column  align-items-center"> 
+           <a href="http://ikvergeetjeniet.be" class="btn"><div  class="qrt text-center textcolor-white col-sm-12 col-md-12 col-lg-6 col-xl-6 col-12 mt-2 p-2  d-flex flex-column  align-items-center"> 
           
              <h2>Ik vergeet je niet!</h2>
                 <p>
@@ -492,14 +489,14 @@
    </div>
 
 
-   <div class="container-fluid padding">
+   <div class="container-fluid padding mt-5">
       <div class="row text-center padding">
          <div class=" col-xs-12 col-md-12 col-lg-6">
   
             <table class="tab2">
                 <tr>
                   <td class="align-middle center-block"> 
-                      <img src="img/web.jpg" class=" img-responsive" width="100%">
+                      <img src="img/web.jpg" class=" img-responsive" width="50%">
                   </td>
                 </tr>
               </table>  
@@ -520,8 +517,8 @@
    
 
 
-<div class="container d-flex justify-content-cneter" >
-   <div class="col-md-6 col-md-offset-3 contact-form">
+<div class="container  mt-5" >
+   <div class="col-md-6 col-md-offset-6  col-xl-6 col-xl-offset-6 contact-form">
                                     
     <p class="contact-no-js message">U moet javascript toelaten om het contactformulier in te vullen.</p>
     <h2>Contactformulier</h2>
@@ -542,10 +539,10 @@
                 
 </div>
 </div>
-<footer>
+<footer class="mt-5">
   <div class="containter-fluid padding">
-    <div class="row text-center">
-      <div class="col-md-4">
+    <div class="row text-center  pt-5">
+      <div class="col-md-12">
         <p>RPQ solutions</p>
         <hr class="light">
         <p><i class="fas fa-phone-alt"></i> 050 21 56 24</p>
@@ -553,28 +550,6 @@
         <p>Bruggestraat 110</p>
         <p>8820 Torhout</p>
       </div>
-
-      <div class="col-md-4">
-          <hr class="light">
-        <p>Speicaliteit</p>
-        <hr class="light">
-        <p>Ontwerp</p>
-        <p>Drukwerk</p>
-        <p>Tekstconversie</p>
-        <p>Webdesign</p>
-        <p>Webhosting</p>
-    </div>
-
-       <div class="col-md-4">
-             <hr class="light">
-            <p>Speicaliteit</p>
-            <hr class="light">
-            <p>Ontwerp</p>
-            <p>Drukwerk</p>
-            <p>Tekstconversie</p>
-            <p>Webdesign</p>
-            <p>Webhosting</p>
-        </div>
 
   </div>
 </footer>

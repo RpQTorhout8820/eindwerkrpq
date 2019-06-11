@@ -98,7 +98,8 @@ ul li a {
   background: url("../img/qr.png") no-repeat 0 0;
   background-size: cover;
   height: 600px;
-  width: 100vw; }
+  width: 100vw;
+  background-attachment: fixed; }
 
 .responsive2 {
   background: url("../img/responsive2.jpg") no-repeat 0 0;
@@ -143,6 +144,20 @@ ul li a {
     background: red;
     color: white;
     margin: 0 10px 20px 10px; }
+
+.tab2 {
+  height: 500px; }
+
+footer {
+  background-color: black;
+  color: white; }
+
+.padding {
+  padding: 2rem 0; }
+
+.nav-pills .nav-link.active, .show > .nav-pills .nav-link {
+  color: #fff;
+  background-color: #007bff; }
 
 .baloo {
   font-family: 'Baloo Da', cursive;

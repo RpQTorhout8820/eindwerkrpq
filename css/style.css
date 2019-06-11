@@ -1,19 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Anton|Roboto:100,400|Baloo+Da&display=swap");
-.blue {
-  background-color: #007bff; }
+.druk {
+  color: white;
+  background-color: rgba(220, 53, 69, 0.85); }
+
+.web {
+  color: white; }
+
+.convert {
+  color: white;
+  background-color: rgba(40, 167, 69, 0.8); }
+
+.qrt {
+  color: white;
+  background-color: rgba(253, 126, 20, 0.85); }
+  .qrt a {
+    color: white; }
+
+.respons {
+  color: white;
+  background-color: rgba(0, 123, 255, 0.8); }
 
 a#link1:hover {
   color: white;
   background-color: #17a2b8; }
 
-.druk {
-  color: rgba(255, 255, 255, 0.1); }
+a#link2:hover {
+  color: white;
+  background-color: #dc3545; }
 
-.web {
-  color: rgba(255, 255, 255, 0.1); }
+a#link3:hover {
+  color: white;
+  background-color: #007bff; }
 
-.convert {
-  color: rgba(255, 255, 255, 0.1); }
+a#link4:hover {
+  color: white;
+  background-color: #28a745; }
 
 a#link5:hover {
   color: white;
@@ -22,41 +44,6 @@ a#link5:hover {
 a#link6:hover {
   color: white;
   background-color: #17a2b8; }
-
-.btn-primary {
-  background-color: rgba(0, 123, 255, 0.55);
-  color: white; }
-
-.btn-primary:hover {
-  background-color: #007bff; }
-
-.btn-warning {
-  background-color: rgba(255, 255, 255, 0.25);
-  color: white; }
-
-.kleur3b {
-  background-color: rgba(128, 128, 128, 0.65);
-  color: white; }
-
-.btn-warning:hover {
-  background-color: rgba(255, 193, 7, 0.75);
-  color: white; }
-
-.btn-success {
-  background-color: rgba(40, 167, 69, 0.25);
-  color: white; }
-
-.btn-success:hover {
-  background-color: #28a745;
-  color: white; }
-
-.btn-danger {
-  background-color: rgba(128, 128, 128, 0.65);
-  color: white; }
-
-.btn-success:hover {
-  background-color: #dc3545;
-  color: white; }
 
 .navbar {
   background-color: white;
@@ -73,7 +60,7 @@ ul li a {
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
-  width: 100%; }
+  width: 100vw; }
   .jumbotron h2 {
     color: #ef5350; }
 
@@ -102,7 +89,7 @@ ul li a {
   width: 100vw; }
 
 .conversie {
-  background: url("../img/conversie.jpg") no-repeat 0 0;
+  background: url("../img/txt.jpg") no-repeat 0 0;
   background-size: cover;
   height: 600px;
   width: 100vw; }
@@ -112,6 +99,50 @@ ul li a {
   background-size: cover;
   height: 600px;
   width: 100vw; }
+
+.responsive2 {
+  background: url("../img/responsive2.jpg") no-repeat 0 0;
+  background-size: cover;
+  height: 600px;
+  width: 100vw; }
+
+.card {
+  background-color: #f0f0f0; }
+
+.card .card-title {
+  color: #7c9c37; }
+
+.card .card-text {
+  font-size: 14px;
+  border: none; }
+
+.bd {
+  background-color: rgba(128, 128, 128, 0.75);
+  color: white;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px; }
+  .bd p {
+    font-family: 'arial', sans-serf;
+    font-size: 50px;
+    vertical-align: bottom; }
+
+.logo {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 14vw;
+  max-width: 80vw;
+  max-height: 80vh;
+  background: rgba(0, 0, 0, 0.25);
+  margin: 50px auto;
+  color: white; }
+  .logo .name {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 7vw;
+    background: red;
+    color: white;
+    margin: 0 10px 20px 10px; }
 
 .baloo {
   font-family: 'Baloo Da', cursive;

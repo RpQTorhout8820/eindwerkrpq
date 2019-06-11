@@ -1,0 +1,45 @@
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 0.5rem;
+  font: inherit;
+  width: 90%;
+  margin: auto;
+  background: rgb(247, 245, 245);
+}
+.contact-form input:required + span::after,
+.contact-form textarea:required + span::after {
+  content: " *";
+  color: red;
+  vertical-align: top;
+}
+.contact-form input:not(:placeholder-shown):valid,
+.contact-form textarea:not(:placeholder-shown):valid {
+  background-color: #f4feee;
+}
+.contact-form input:not(:placeholder-shown):invalid,
+.contact-form textarea:not(:placeholder-shown):invalid {
+  background-color: #fff0f0;
+}
+.contact-form label,
+.contact-form button {
+  display: block;
+}
+
+.js-submitted input:valid,
+.js-submitted textarea:valid {
+  background-color: #f4feee;
+  }
+.js-submitted input:invalid,
+.js-submitted textarea:invalid {
+  background-color: #fff0f0;
+  
+} 
+
+.hidden {
+  display: none;
+}
+
+body {
+  margin: 0.5rem;
+  font-size: 18px;
+}

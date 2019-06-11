@@ -1,8 +1,68 @@
 @import url("https://fonts.googleapis.com/css?family=Anton|Roboto:100,400|Baloo+Da&display=swap");
+.blue {
+  background-color: #007bff; }
+
+a#link1:hover {
+  color: white;
+  background-color: #17a2b8; }
+
+.druk {
+  color: rgba(255, 255, 255, 0.1); }
+
+.web {
+  color: rgba(255, 255, 255, 0.1); }
+
+.convert {
+  color: rgba(255, 255, 255, 0.1); }
+
+a#link5:hover {
+  color: white;
+  background-color: #ffc107; }
+
+a#link6:hover {
+  color: white;
+  background-color: #17a2b8; }
+
+.btn-primary {
+  background-color: rgba(0, 123, 255, 0.55);
+  color: white; }
+
+.btn-primary:hover {
+  background-color: #007bff; }
+
+.btn-warning {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: white; }
+
+.kleur3b {
+  background-color: rgba(128, 128, 128, 0.65);
+  color: white; }
+
+.btn-warning:hover {
+  background-color: rgba(255, 193, 7, 0.75);
+  color: white; }
+
+.btn-success {
+  background-color: rgba(40, 167, 69, 0.25);
+  color: white; }
+
+.btn-success:hover {
+  background-color: #28a745;
+  color: white; }
+
+.btn-danger {
+  background-color: rgba(128, 128, 128, 0.65);
+  color: white; }
+
+.btn-success:hover {
+  background-color: #dc3545;
+  color: white; }
+
 .navbar {
   background-color: white;
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  z-index: 1; }
 
 ul li a {
   margin-right: 20px; }
@@ -11,10 +71,11 @@ ul li a {
   color: #fff;
   background: url("../img/zethaak.png") no-repeat 0 0;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   width: 100%; }
   .jumbotron h2 {
-    color: gray; }
+    color: #ef5350; }
 
 .vertical-center {
   min-height: 100%;
@@ -28,6 +89,30 @@ ul li a {
   border: 1px solid #ccc;
   padding: 20px; }
 
+.drukwerk {
+  background: url("../img/drukwerk.jpg") no-repeat 0 0;
+  background-size: cover;
+  height: 600px;
+  width: 100vw; }
+
+.webdesign {
+  background: url("../img/woman.jpg") no-repeat 0 0;
+  background-size: cover;
+  height: 600px;
+  width: 100vw; }
+
+.conversie {
+  background: url("../img/conversie.jpg") no-repeat 0 0;
+  background-size: cover;
+  height: 600px;
+  width: 100vw; }
+
+.qr {
+  background: url("../img/qr.png") no-repeat 0 0;
+  background-size: cover;
+  height: 600px;
+  width: 100vw; }
+
 .baloo {
   font-family: 'Baloo Da', cursive;
   color: gray;
@@ -35,25 +120,78 @@ ul li a {
 
 .robot1 {
   font-family: 'Roboto', sans-serif;
-  color: gray;
+  color: #ef5350;
   font-size: 112px;
   font-weight: 100;
-  line-height: 50px;
+  line-height: 70px;
   margin-top: 250px; }
 
 .robot2 {
   font-family: 'Roboto', sans-serif;
-  color: gray;
-  font-size: 40px;
+  color: #ef5350;
+  font-size: 30px;
   font-weight: 10;
-  line-height: 40px; }
+  line-height: 30px; }
 
-.card {
-  z-index: -1; }
+.robot2w {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 50px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(0, 123, 255, 0.55); }
+  .robot2w:hover {
+    background-color: #007bff; }
+
+.robot2ww {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 50px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.25); }
+  .robot2ww:hover {
+    background-color: #ffc107; }
+
+.robot2s {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 50px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(40, 167, 69, 0.25); }
+  .robot2s:hover {
+    background-color: rgba(40, 167, 69, 0.25); }
+
+.robot2d {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 50px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(128, 128, 128, 0.65); }
+  .robot2d:hover {
+    background-color: #dc3545; }
 
 .icoon {
   font-size: 50px;
   color: white; }
+
+.icoon__primary {
+  color: #007bff;
+  text-align: center; }
 
 .timeline {
   list-style: none;
@@ -191,42 +329,6 @@ ul li a {
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); }
 
-.progress {
-  background-image: -webkit-gradient(linear, left 0, left 100%, from(#ebebeb), to(#f5f5f5));
-  background-image: -webkit-linear-gradient(top, #ebebeb 0, #f5f5f5 100%);
-  background-image: -moz-linear-gradient(top, #ebebeb 0, #f5f5f5 100%);
-  background-image: linear-gradient(to bottom, #ebebeb 0, #f5f5f5 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb',endColorstr='#fff5f5f5',GradientType=0); }
-
-.progress {
-  height: 12px;
-  background-color: #ebeef1;
-  background-image: none;
-  box-shadow: none; }
-
-.progress-bar {
-  float: left;
-  width: 0;
-  height: 100%;
-  font-size: 12px;
-  line-height: 20px;
-  color: #fff;
-  text-align: center;
-  background-color: #428bca;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  -webkit-transition: width .6s ease;
-  transition: width .6s ease; }
-
-.progress-bar {
-  background-image: -webkit-gradient(linear, left 0, left 100%, from(#428bca), to(#3071a9));
-  background-image: -webkit-linear-gradient(top, #428bca 0, #3071a9 100%);
-  background-image: -moz-linear-gradient(top, #428bca 0, #3071a9 100%);
-  background-image: linear-gradient(to bottom, #428bca 0, #3071a9 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca',endColorstr='#ff3071a9',GradientType=0); }
-
 .progress-bar {
   box-shadow: none;
   border-radius: 3px;
@@ -243,7 +345,7 @@ ul li a {
   -o-transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
   transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86); }
 
-.progress-bar-success {
+.progress-bar__success {
   background-image: -webkit-gradient(linear, left 0, left 100%, from(#5cb85c), to(#449d44));
   background-image: -webkit-linear-gradient(top, #5cb85c 0, #449d44 100%);
   background-image: -moz-linear-gradient(top, #5cb85c 0, #449d44 100%);
@@ -251,11 +353,7 @@ ul li a {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c',endColorstr='#ff449d44',GradientType=0); }
 
-.progress-bar-success {
-  background-color: #0AA699;
-  background-image: none; }
-
-.progress-bar-info {
+.progress-bar__info {
   background-image: -webkit-gradient(linear, left 0, left 100%, from(#5bc0de), to(#31b0d5));
   background-image: -webkit-linear-gradient(top, #5bc0de 0, #31b0d5 100%);
   background-image: -moz-linear-gradient(top, #5bc0de 0, #31b0d5 100%);
@@ -263,11 +361,7 @@ ul li a {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de',endColorstr='#ff31b0d5',GradientType=0); }
 
-.progress-bar-info {
-  background-color: #0090D9;
-  background-image: none; }
-
-.progress-bar-warning {
+.progress-bar__warning {
   background-image: -webkit-gradient(linear, left 0, left 100%, from(#f0ad4e), to(#ec971f));
   background-image: -webkit-linear-gradient(top, #f0ad4e 0, #ec971f 100%);
   background-image: -moz-linear-gradient(top, #f0ad4e 0, #ec971f 100%);
@@ -275,20 +369,12 @@ ul li a {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e',endColorstr='#ffec971f',GradientType=0); }
 
-.progress-bar-warning {
-  background-color: #FDD01C;
-  background-image: none; }
-
-.progress-bar-danger {
+.progress-bar__danger {
   background-image: -webkit-gradient(linear, left 0, left 100%, from(#d9534f), to(#c9302c));
   background-image: -webkit-linear-gradient(top, #d9534f 0, #c9302c 100%);
   background-image: -moz-linear-gradient(top, #d9534f 0, #c9302c 100%);
   background-image: linear-gradient(to bottom, #d9534f 0, #c9302c 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f',endColorstr='#ffc9302c',GradientType=0); }
-
-.progress-bar-danger {
-  background-color: #F35958;
-  background-image: none; }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,19 +8,18 @@
 
   <title>RPQ solutions - Hoe kunnen we je helpen?</title>
 
-  
+
+ <!-- css voor animation on scroll -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <!-- css voor bootstrap e.d. -->
+
   <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
-
   <!-- css voor contactformulier -->
   <link rel="stylesheet" href="csscontact/contact.css">
-
-
- <!-- css voor animation on scroll -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
 
 </head>
 
@@ -33,9 +32,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        
         <li class="nav-item">
           <a class="nav-link" id="link1" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
@@ -63,24 +60,17 @@
   <!-- jumbotoron -->
 
 
-  <div class="jumbotron vertical-center text-center">
-    <!-- <p id="rpq1" class="robot1">RPQ solutions<br>-->
- 
- 
-      <div class="row col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
-    <div class="col logo text-center   ">
+  <div class="jumbotron vertical-center text- center">
+    <!-- <p id="rpq1" class="robot1">RPQ solutions<br>
+      <span id="rpq2" class="robot2 pt-0">Hoe kunnen we je helpen?</span>
+    </p> -->
+    <div class="logo text-center d-flex justify-content-center align-items-center flex-column">
       RpQ
       <div class="name">
         solutions
       </div>
        
     </div>
-
-<!-- <div class="col  text-center col-sm-12 col-xl-12">
-    <p id="rpq2" class="robot2 pt-0">Hoe kunnen we je helpen?
-    </p>
-  </div>  -->
-</div>
   </div>
   <div class="container">
     <div class="container">
@@ -205,12 +195,9 @@
                        
                     <!--Text-->
                      <p class="card-text text-white">Druk en opmaak aan eerlijke prijzen!</p>
-
-
-                     
                     </div>
-                    
-                    </div>
+
+                </div>
                 <!--/.Card-->
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
@@ -226,7 +213,7 @@
                         <div class="card-body bg-primary">
                            
                         <!--Text-->
-                         <p class="card-text text-white">Wij ontwerpen of updaten uw website.</p>
+                         <p class="card-text text-white">Wij ontwerpen uw website maar passen ook bestaande sites aan.</p>
                         </div>
     
                     </div>
@@ -264,7 +251,8 @@
                         <div class="card-body bg-warning">
                            
                         <!--Text-->
-                         <p class="card-text text-white">Herinneringspagina met foto op glas.</p>
+                         <p class="card-text text-white">Herinneringspagina met foto op glas via een
+                                qr-code.</p>
                         </div>
     
                     </div>
@@ -275,13 +263,15 @@
 </section>
 
 
- 
-
-  <div id="drukken" class="container-fluid mt-5" >
+  <div id="drukken" class="container-fluid mt-5">
+      <div class="block animate" data-animate="bounceIn" data-duration="1.0s" data-delay="0.1s"></div>
           <div class="row  mt-5" >
              <div class="col-md-12 drukwerk text-center pt-3 ">
-                <div  class="druk text-center textcolor-white col-sm-12 col-md-12 col-lg-6 col-xl-4 col-12 mt-2 p-2  d-flex flex-column  align-items-center animate" data-animate="bounceIn" data-duration="2.0s" data-delay="0.1s">
-              
+                <!-- <div class=" robot2d  kleur3b center-block col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12  mt-3 ">
+                    Drukwerk aan scherpe prijzen
+                </div> -->
+                <div  class="druk animate text-center textcolor-white col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-2 p-2  d-flex flex-column  align-items-center  " data-animate="bounceIn" data-duration="1.0s" data-delay="0.1s">
+                 <!-- <div  class="btn-danger col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-2 p-2  d-flex float-right align-items-end"> -->
                    <h2>Drukwerk aan scherpe prijzen</h2>
                     <p>
                       Wij ontwerpen en drukken je reclame of familie-drukwerk... met een complete mix van papier en internet... Wil je een reclamefolder online plaatsen, maar je hebt geen eigen webstek... wij zorgen voor een oplossing.<br>
@@ -295,7 +285,7 @@
   </div>
   
   <div class="container">
-    <div class=" d-flex flex-column  flex-md-row flex-xl-row">
+    <div class=" d-flex">
        <div class=" col-md-6  mt-0 float-left text-left">
          <img src="img/fran-boek.png" width="350px">
        </div>
@@ -313,11 +303,13 @@
     <div class="row  mt-5" >
        <div class="col-md-12 webdesign text-center pt-3 ">
           
-           <div  class="web text-center textcolor-white col-sm-12 col-md-12 col-lg-6 col-xl-4 col-11 mt-2 p-2  d-flex flex-column  align-items-center">
+           <div  class="web text-center textcolor-white col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-2 p-2  d-flex flex-column  align-items-center animate"  data-animate="bounceIn" data-duration="2.0s" data-delay="0.1s"> 
             <h2>Webdesign op maat</h2>  
             <p>
-                  
-                  We maken een simpele en duidelijk overzichtelijke website voor je. 
+                  Ben je al op het www?<br>
+                  Het wordt hoogtijd... mis de boot niet en laat je eigen website maken.
+                  We maken een simpele en duidelijk overzichtelijke website voor je.<br>
+                  <br>
                   Win tijd door het vermijden van tijdrovende telefoontjes met vragen die via een webpagina in één oogopslag kunnen beantwoord worden.<br>
                   <br>
                   Heb je reeds een website en is die dringend aan een update toe, dan ben je bij ons op het juiste adres!
@@ -328,8 +320,8 @@
      </div>
 </div>
 <div class="container">
-<div class=" d-flex flex-column   flex-md-row flex-xl-row">
- <div class=" col-md-6  mt-0 float-left text-center">
+<div class=" d-flex">
+ <div class=" col-md-6  mt-0 float-left text-left">
    <img src="img/responsive.jpg" width="350px">
  </div>
  <div class=" col-md-6 float-right mt-5 text-left">
@@ -349,7 +341,7 @@
           <div class=" robot2w  col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12  mt-3 ">
              
           </div>
-           <div  class="convert col-sm-12 col-md-12 col-lg-6 col-xl-4 col-12 mt-2 p-2  d-flex flex-column animate" data-animate="bounceIn" data-duration="1.0s" data-delay="0.1s">
+           <div  class="convert col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-2 p-2  d-flex flex-column ">
             <h2 class="text-center">Tekstconversie</h2> 
             <p>
                  Wij helpen je tijd besparen bij het klaarmaken van de teksten voor het internet.<br>
@@ -360,7 +352,7 @@
      </div>
 </div>
 <div class="container">
-<div class=" d-flex flex-column   flex-md-row  flex-xl-row">
+<div class=" d-flex">
  <div class=" col-md-6  mt-0 float-left text-left">
    <img src="img/conversie2.png" width="350px">
  </div>
@@ -377,15 +369,21 @@
  <div id="vergeetjeniet" class="container-fluid mt-5">
     <div class="row">
        <div class="col-md-12 qr text-center pt-3" id="foto">
-            <div  class="qrt text-center textcolor-white col-sm-12 col-md-12 col-lg-6 col-xl-4 col-12 mt-2 p-2  d-flex flex-column  align-items-center">
+            <div  class="druk text-center textcolor-white col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-2 p-2  d-flex flex-column  align-items-center">
           
              <h2>Ik vergeet je niet!</h2>
                 <p>
-                  Laat je geliefden niet vergeten en maak een webpagina gelinkt aan een QR-code. Een levensverhaal blijft voortbestaan! <br>
-                  
+                  Laat je geliefden niet vergeten en maak een webpagina gelinkt aan een QR-code.<br>
+                  Plaats een foto samen met een QR-code op de gedenkplaats en maak een waardig eerbetoon.<br>
+                  Het levensverhaal blijft voortbestaan! <br>
+                  Laat een leven niet zomaar verdwijnen. 
               </p>
              </div> 
-            
+             <div btn btn-outline-primary>
+                <a href="https://ikvergeetjeniet.be"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANTSURBVGhD7VlJaxRBFM7ZXdz+hQozXSEhMNCdSBBRUOOCMPeoFy8evHgYo+LNX2Ak4voLPIjLIcYt5qg3F9BxwUy6Z0xcZtrvta8hTF71TK8zhPngg2G66r3v66p+XVXd10MPPWQHZ2Rgu2OqMccyJqqWca9qqcf4/ZJYNdUj+o+u2aY6TG25W3dgvrBrE8SfBl84lmpAvNsOqS1MzVBfisHhsodnwFKXcZdtSWgomsYCjVTmhpC8iKnydYWg2DTKMHSC06SHb4OD62HghiwiQSLHl0JhHadNFo7ZvwPzeVZMnAKpQFBOTp8M7NHd23CX3koJUyVyUm6WEQ80nXB35sREGZCqYSLTDA/gTSlBxpxiOdGAAMWmgB1j5GpWGRra3G6JrR3Z69YOWOK15GiUI71n/r/spIAruXjujNuozLu/rl5xq3sGxDZJ0DGNiyyvPZDzMG9sMuKj/vG9u3j+rNguNk1VCTUqtP4RA2m43IiPv3Ov3J/jRbF9HNpW/iTLbA1Mq2dSEB0lIx4aDffPg/tu7fh+sV8UYno9ZZnB8JbiIVaxRK0RH0tL7u9bk4kUBMyWul3IbWW5eqDhmBQgiC2NMJIqCLbVf4jl6kGVQeocxHaN+Kh/eBerIGDGXGC5eqDh3eaOrRjWiI/IBcFUt1muHii7T8TOAYxqxEOUgoBtM8vVA8/Ia7FzAGMZ8RGiIEDjLMvVgxpJnYPYlUZWzdRCw9XxsNNphtg5gGGNxC6/piqxXD3QaHW8EGmP3O1LlAXL2MJyg4HpNSMF0VFrJJVFo5pmma2BxqekIDpKRtJbxhvjLLM1vI2VaSxIgSQuN5LqxspS86G3uxiVS0IgkWQkk61uO4vFZvB2tywFbGYWhw8w8fn7qNrA8sKBjmCkoJ2gY+WPsqxoQJCp5qBZE3uk6ywnOui4Es/LcylBFqRXgbsvt4blxEPHDrEt9SaxQ2wf3mcF+hYoJ0ycNAsSN+GDphlGJvUPPahQ1xojO9dy2vRA1YzKoSQiDjEKnzDyxzhNNqD3DAxNhFkBaGmqCkyUfgznNnL47OEZwtoMnAbrolCB1Jb60BFoRw1IoBNAezh/EAJLuMt3MFoPqUB4RQK/6T+6Rm3aXor30EMPCaCv7x+yAXvtKVbJZgAAAABJRU5ErkJggg=="></a> 
+
+             </div>
+
           </div>
         </div>
      </div>
@@ -394,7 +392,7 @@
 
 
 <div class="container">
-  <div class=" d-flex flex-column   flex-md-row  flex-xl-row">
+  <div class=" d-flex">
      <div class=" col-md-6  mt-0 float-left text-left">
         <a href="https://ikvergeetjeniet.be"><img src="img/qrfp.png" width="350px"></a>
      </div>
@@ -402,7 +400,7 @@
         <h1>Scan de QR-code</h1>
         <p>Scan deze QR-code met je smartphone of tablet, of klik op de QR-code en bekijk een voorbeeld herinneringspagina.
             Op een snelle overzichtelijke manier krijg je de ganse levensloop van je dierbare te zien.</p>
-            <div class="btn btn-warning bg-warning qrt "><a href="https://ikvergeetjeniet.be">Meer op "ikvergeetjeniet.be"</a></div>
+            <div class="btn btn-warning bg-warning "><a href="https://ikvergeetjeniet.be">Meer op "ikvergeetjeniet.be"</a></div>
        </div>
  </div>
 </div>
@@ -411,11 +409,11 @@
 <div id="responsive" class="container-fluid mt-5">
   <div class="row">
      <div class="col-md-12 responsive2 text-center pt-3">
-            <div  class="respons text-center textcolor-white col-sm-12 col-md-12 col-lg-6 col-xl-4 col-12 mt-2 p-2  d-flex flex-column  align-items-center animate" data-animate="bounceIn" data-duration="1.0s" data-delay="0.1s">
+            <div  class="respons text-center textcolor-white col-sm-4 col-md-4 col-lg-4 col-xl-4 col-12 mt-2 p-2  d-flex flex-column  align-items-center">
          
            <h2>Responsive webdesign</h2>
               <p>
-                Anno 2019 zijn er nog veel websites die niet goed werken op tablets en smartphones. 
+                Anno 2019 zijn er nog veel websites die niet goed werken op tablets en smartphones.<br>
                 Als je online strategie serieus neemt dan is responsive webdesign de eerste stap in de ontwikkeling van
                 een nieuwe website. <br>
                 Bij een goed doordacht ontwerp zul je als resultaat hebben dat je meer bezoekers krijgt en dat deze langer
@@ -429,7 +427,7 @@
         </div>
       </div>
    </div>
-<div class="container d-flex justify-content-center" >
+<div class="container d-flex justify-content-cneter" >
    <div class="col-md-6 col-md-offset-3 contact-form">
                                     
     <p class="contact-no-js message">U moet javascript toelaten om het contactformulier in te vullen.</p>
@@ -451,6 +449,8 @@
                 
 </div>
 </div>
+
+
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -461,9 +461,28 @@
 <script src="jscontact/bootstrap.min.js"></script>
 <script src="jscontact/contact.js"></script>
 
-
 <!-- javascript voor geanimeerd scrollen -->
 <script src="js/scrolla.jquery.min.js"></script>
+
+<script>
+
+    $('.animate').scrolla({
+      mobile: false,
+      once: false
+    });
+  
+    $('#button-show-window').click(function() {
+      var template = $('#modal-template').html();
+      $('body').append(template);
+      $('.animate').scrolla('bind');
+      $('section.modal .modal-close').click(function() {
+        $(this).closest('section.modal').remove();
+      });
+  
+      return false;
+    });
+  
+    </script>
 
 </body>
 

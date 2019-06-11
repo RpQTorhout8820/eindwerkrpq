@@ -4,32 +4,21 @@ $(document).ready(function(){
         }, function () {
             $(this).find('.sm-menu').first().stop(true, true).slideUp(105)
         });
-     
+ 
+     //bounce-in effect   
 
-// $('.kleur3b').hide();
-// $('#drukken').on( "mouseover", function(){
-//     $('.druk').fadeIn(4000).css({"background-color": "#dc3545", "color": "white"});
-// })
+     $('.animate').scrolla({
+         mobile: false,
+         once: true
+          });
 
+    //toon inhoud bij mouse-over
+     $('.web').hide();
+     $('#webdesign').on( "mouseover", function(){
+           $('.web').css({"background-color": "rgba(0, 123, 255, .8)", "color": "white"}).toggle(slideDown);
+     })
 
-//infaden van items op foto in tussenstukken
-$('.druk').hide();
-$('#drukken').on( "mouseover", function(){
-    $('.druk').css({"background-color": "rgba(220, 53, 69, .8)", "color": "white"}).toggle(slideDown);
-})
-
-$('.web').hide();
-$('#webdesign').on( "mouseover", function(){
-    $('.web').css({"background-color": "rgba(0, 123, 255, .8)", "color": "white"}).toggle(slideDown);
-})
-
-$('.convert').hide();
-$('#conversie').on( "mouseover", function(){
-    $('.convert').css({"background-color": "rgba(40, 167, 69, .8)", "color": "white"}).toggle(slideDown);
-})
-
-
-
+    
 
 });
 
@@ -47,13 +36,9 @@ $('.navbar-nav>li>a').on('click', function(){
  });
 
  
-// $('.nav-link').css("color", "white").css("text-indent", "5px");
 
- 
-// $('#drukken').on('hover', function(){
-//     $('.btn-warning').addClass('kleur3');
-//     console.log('test');
-// })
+
+ // $('.nav-link').css("color", "white").css("text-indent", "5px");
 
 
 

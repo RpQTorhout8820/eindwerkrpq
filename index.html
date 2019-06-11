@@ -20,40 +20,44 @@
 
  <!-- css voor animation on scroll -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<style>
 
+.tab2{
+  height: 500px;
+}
+</style>
 
 </head>
 
 <body data-spy="scroll" data-target="#menu">
   <!-- navigation -->
   <nav class="navbar navbar-expand-sm   navbar-light ">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+    <a href="index.html" class="navbar-brand">RPQ solutions</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
       aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      
+    <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" id="link1" href="#">&nbsp;Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="link2" href="#drukken">&nbsp;Drukwerk</a>
+        </li>
         
         <li class="nav-item">
-          <a class="nav-link" id="link1" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" id="link3" href="#webdesign">&nbsp;Webdesign</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="link2" href="#drukken">Drukwerk</a>
-        </li>
-        
-        <li class="nav-item">
-          <a class="nav-link" id="link3" href="#webdesign">Webdesign</a>
+          <a class="nav-link" id="link4" href="#conversie">&nbsp;Tekstconversie</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="link4" href="#conversie">Tekstconversie</a>
+          <a class="nav-link" id="link5" href="#vergeetjeniet">&nbsp;Fotoherinnering</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="link5" href="#vergeetjeniet">Fotoherinnering</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="link6" href="#">Contact</a>
+            <a class="nav-link" id="link6" href="#">&nbsp;Contact</a>
         </li>
       </ul>
 
@@ -191,9 +195,9 @@
   <section>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6 col-lg-3 mt-2">
                 <!--Card-->
-                <div class="card hoverable bg-danger">
+                <div class="card hoverable bg-danger ">
                     <!--Title-->
                     <i class="la la-book icoon  text-center text-white"></i>
                     <h4 class="card-title text-center text-white"> Drukwerk</h4>
@@ -205,15 +209,12 @@
                        
                     <!--Text-->
                      <p class="card-text text-white">Druk en opmaak aan eerlijke prijzen!</p>
-
-
-                     
                     </div>
-                    
-                    </div>
+
+                </div>
                 <!--/.Card-->
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6 col-lg-3  mt-2">
                     <!--Card-->
                     <div class="card hoverable bg-primary">
                         <!--Title-->
@@ -226,13 +227,13 @@
                         <div class="card-body bg-primary">
                            
                         <!--Text-->
-                         <p class="card-text text-white">Wij ontwerpen of updaten uw website.</p>
+                         <p class="card-text text-white">Wij ontwerpen uw website maar passen ook bestaande sites aan.</p>
                         </div>
     
                     </div>
                 <!--/.Card-->
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6 col-lg-3  mt-2">
                     <!--Card-->
                     <div class="card hoverable bg-success">
                         <!--Title-->
@@ -251,7 +252,7 @@
                     </div>
                 <!--/.Card-->
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6 col-lg-3  mt-2">
                     <!--Card-->
                     <div class="card hoverable bg-warning">
                         <!--Title-->
@@ -264,7 +265,8 @@
                         <div class="card-body bg-warning">
                            
                         <!--Text-->
-                         <p class="card-text text-white">Herinneringspagina met foto op glas.</p>
+                         <p class="card-text text-white">Herinneringspagina met foto op glas via een
+                                qr-code.</p>
                         </div>
     
                     </div>
@@ -294,16 +296,29 @@
            </div>
   </div>
   
-  <div class="container">
-    <div class=" d-flex flex-column  flex-md-row flex-xl-row">
-       <div class=" col-md-6  mt-0 float-left text-left">
-         <img src="img/fran-boek.png" width="350px">
-       </div>
-       <div class=" col-md-6 float-right mt-5 text-left">
-          <h1>Maak je eigen boek</h1>
-          <p>Heb je er ooit aan gedacht om je eigen boek te publiceren.... Wij kunnen je hierbij helpen aan verrassende prijzen!</p>
-          Wij begeleiden je project van begin tot einde... met ervaring in prepress- en druktechnieken ben je bij ons op de juiste plaats.<br>
+  <div class="container-fluid padding">
+    <div class="row text-center padding">
+       <div class=" col-xs-12 col-md-6 col-lg-6">
 
+          <table class="tab2" >
+              <tr>
+                <td class="align-middle center-block"> 
+                    <img src="img/fran-boek.png" class="img-responsive"  width="100%">
+                </td>
+              </tr>
+            </table>  
+         
+       </div>
+       <div class=" col-xs-12 col-md-6 col-lg-6 ">
+        <table class="tab2" >
+          <tr>
+            <td class="align-middle"> <h1>Maak je eigen boek</h1>
+              <p>Heb je er ooit aan gedacht om je eigen boek te publiceren.... Wij kunnen je hierbij helpen aan verrassende prijzen!</p>
+              Wij begeleiden je project van begin tot einde... met ervaring in prepress- en druktechnieken ben je bij ons op de juiste plaats.<br>
+            </td>
+          </tr>
+        </table>  
+       
         </div>
    </div>
  </div>
@@ -327,20 +342,36 @@
         </div>
      </div>
 </div>
-<div class="container">
-<div class=" d-flex flex-column   flex-md-row flex-xl-row">
- <div class=" col-md-6  mt-0 float-left text-center">
-   <img src="img/responsive.jpg" width="350px">
- </div>
- <div class=" col-md-6 float-right mt-5 text-left">
-    <h1>Maak je website responsive</h1>
-    <p>Surf naar je website op je smartphone of tablet... de meeste websites zijn nog niet omgezet naar de nieuwe standaard... Wij lossen dit voor je op.<br>
-      Neem contact met ons op en we helpen je verder aan eerlijke prijzen.<br>
-      Met permanente bijscholing spelen wij in op de huidige trends!</p>
 
-  </div>
-</div>
-</div>
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+       <div class=" col-xs-12 col-md-12 col-lg-6">
+
+          <table class="tab2">
+              <tr>
+                <td class="align-middle center-block"> 
+                    <img src="img/responsive.jpg" class=" img-responsive" width="100%">
+                </td>
+              </tr>
+            </table>  
+         
+       </div>
+       <div class=" col-xs-12 col-md-6 col-lg-6 ">
+        <table class="tab2" >
+          <tr>
+            <td class="align-middle"> <h1>Maak je website responsive</h1>
+              <p>Surf naar je website op je smartphone of tablet... de meeste websites zijn nog niet omgezet naar de nieuwe standaard... Wij lossen dit voor je op.<br>
+                Neem contact met ons op en we helpen je verder aan eerlijke prijzen.<br>
+                Met permanente bijscholing spelen wij in op de huidige trends!</p>
+            </td>
+          </tr>
+        </table>  
+       
+        </div>
+   </div>
+ </div>
+ 
+
 
 
 <div id="conversie" class="container-fluid mt-5" >
@@ -359,25 +390,41 @@
         </div>
      </div>
 </div>
-<div class="container">
-<div class=" d-flex flex-column   flex-md-row  flex-xl-row">
- <div class=" col-md-6  mt-0 float-left text-left">
-   <img src="img/conversie2.png" width="350px">
+
+
+
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+       <div class=" col-xs-12 col-md-12 col-lg-6">
+
+          <table class="tab2">
+              <tr>
+                <td class="align-middle center-block"> 
+                    <img src="img/conversie2.png" class=" img-responsive" width="100%">
+                </td>
+              </tr>
+            </table>  
+         
+       </div>
+       <div class=" col-xs-12 col-md-6 col-lg-6 ">
+        <table class="tab2" >
+          <tr>
+            <td class="align-middle"> <h1>Verwerken van Office-bestanden</h1>
+              <p>Heb je een groot aantal MS-office bestanden die moeten omgezet worden naar het internet? Geen probleem wij lossen dit voor je op.</p>
+            </td>
+          </tr>
+        </table>  
+       
+        </div>
+   </div>
  </div>
- <div class=" col-md-6 float-right mt-5 text-left">
-    <h1>Verwerken van Office-bestanden</h1>
-    <p>Heb je een groot aantal MS-office bestanden die moeten omgezet worden naar het internet? Geen probleem wij lossen dit voor je op.</p>
-
-  </div>
-</div>
-</div>
+ 
 
 
-
- <div id="vergeetjeniet" class="container-fluid mt-5">
+ <div id="vergeetjeniet " class="container-fluid mt-5">
     <div class="row">
        <div class="col-md-12 qr text-center pt-3" id="foto">
-            <div  class="qrt text-center textcolor-white col-sm-12 col-md-12 col-lg-6 col-xl-4 col-12 mt-2 p-2  d-flex flex-column  align-items-center">
+           <a href="http://ikvergeetjeniet.be" class="btn"><div  class="qrt text-center textcolor-white col-sm-12 col-md-12 col-lg-6 col-xl-4 col-12 mt-2 p-2  d-flex flex-column  align-items-center"> 
           
              <h2>Ik vergeet je niet!</h2>
                 <p>
@@ -385,27 +432,41 @@
                   
               </p>
              </div> 
-            
+            </a>
           </div>
         </div>
      </div>
 
  
 
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+       <div class=" col-xs-12 col-md-12 col-lg-6">
 
-<div class="container">
-  <div class=" d-flex flex-column   flex-md-row  flex-xl-row">
-     <div class=" col-md-6  mt-0 float-left text-left">
-        <a href="https://ikvergeetjeniet.be"><img src="img/qrfp.png" width="350px"></a>
-     </div>
-     <div class=" col-md-6 float-right mt-5 text-left">
-        <h1>Scan de QR-code</h1>
-        <p>Scan deze QR-code met je smartphone of tablet, of klik op de QR-code en bekijk een voorbeeld herinneringspagina.
-            Op een snelle overzichtelijke manier krijg je de ganse levensloop van je dierbare te zien.</p>
-            <div class="btn btn-warning bg-warning qrt "><a href="https://ikvergeetjeniet.be">Meer op "ikvergeetjeniet.be"</a></div>
+          <table class="tab2">
+              <tr>
+                <td class="align-middle center-block"> 
+                    <p class="text-lg-center" ><a href="https://ikvergeetjeniet.be"><img src="img/qrfp.png" class=" img-responsive" ></a></p>
+                </td>
+              </tr>
+            </table>  
+         
        </div>
+       <div class=" col-xs-12 col-md-6 col-lg-6 ">
+        <table class="tab2" >
+          <tr>
+            <td class="align-middle"> <h1>Scan de QR-code</h1>
+              <p><p>Scan deze QR-code met je smartphone of tablet, of klik op de QR-code en bekijk een voorbeeld herinneringspagina.
+                  Op een snelle overzichtelijke manier krijg je de ganse levensloop van je dierbare te zien.</p>
+                  <div class="btn btn-warning bg-warning qrt "><a href="https://ikvergeetjeniet.be">Meer op "ikvergeetjeniet.be"</a></div>
+            </td>
+          </tr>
+        </table>  
+       
+        </div>
+   </div>
  </div>
-</div>
+ 
 
 
 <div id="responsive" class="container-fluid mt-5">
@@ -429,7 +490,37 @@
         </div>
       </div>
    </div>
-<div class="container d-flex justify-content-center" >
+
+
+   <div class="container-fluid padding">
+      <div class="row text-center padding">
+         <div class=" col-xs-12 col-md-12 col-lg-6">
+  
+            <table class="tab2">
+                <tr>
+                  <td class="align-middle center-block"> 
+                      <img src="img/web.jpg" class=" img-responsive" width="100%">
+                  </td>
+                </tr>
+              </table>  
+           
+         </div>
+         <div class=" col-xs-12 col-md-6 col-lg-6 ">
+          <table class="tab2" >
+            <tr>
+              <td class="align-middle"> <h1>Web hosting</h1>
+                <p>We begeleiden een project van begin tot einde. Door onze persoonlijke aanpak kiezen wij voor de beste oplossing en denken mee. We kunnnen je eventueel begeleiden bij het zelf aanpassen van je site. Via een aantal vrij te downloaden programma's kun je kleine aanpassingen aan je website uitvoeren. Wij bieden support op maat.</p>
+              </td>
+            </tr>
+          </table>  
+         
+          </div>
+     </div>
+   </div>
+   
+
+
+<div class="container d-flex justify-content-cneter" >
    <div class="col-md-6 col-md-offset-3 contact-form">
                                     
     <p class="contact-no-js message">U moet javascript toelaten om het contactformulier in te vullen.</p>
@@ -451,6 +542,44 @@
                 
 </div>
 </div>
+<footer>
+  <div class="containter-fluid padding">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <p>RPQ solutions</p>
+        <hr class="light">
+        <p><i class="fas fa-phone-alt"></i> 050 21 56 24</p>
+        <p>info@rpq.be</p>
+        <p>Bruggestraat 110</p>
+        <p>8820 Torhout</p>
+      </div>
+
+      <div class="col-md-4">
+          <hr class="light">
+        <p>Speicaliteit</p>
+        <hr class="light">
+        <p>Ontwerp</p>
+        <p>Drukwerk</p>
+        <p>Tekstconversie</p>
+        <p>Webdesign</p>
+        <p>Webhosting</p>
+    </div>
+
+       <div class="col-md-4">
+             <hr class="light">
+            <p>Speicaliteit</p>
+            <hr class="light">
+            <p>Ontwerp</p>
+            <p>Drukwerk</p>
+            <p>Tekstconversie</p>
+            <p>Webdesign</p>
+            <p>Webhosting</p>
+        </div>
+
+  </div>
+</footer>
+
+
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>

@@ -15,7 +15,7 @@ $(document).ready(function(){
     //toon inhoud bij mouse-over
      $('.web').hide();
      $('#webdesign').on( "mouseover", function(){
-           $('.web').css({"background-color": "rgba(0, 123, 255, .8)", "color": "white"}).toggle(slideDown);
+           $('.web').css({"background-color": "rgba(0, 123, 255, .8)", "color": "white"}).toggle(show);
      })
 
     

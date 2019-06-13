@@ -63,6 +63,12 @@ body {
   line-height: 1.70;
   color: #5f5e5e; }
 
+.qs {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 90%;
+  font-weight: 504;
+  line-height: 1.70; }
+
 .container {
   max-width: 95vw;
   margin: auto; }
@@ -261,12 +267,13 @@ a.custom-card:hover {
 
 .logo {
   font-family: 'Archivo Black', sans-serif;
-  font-size: 14vw;
-  max-width: 80vw;
-  max-height: 80vh;
+  font-size: 10em;
+  max-width: 90vw;
+  max-height: 82vh;
   background: rgba(0, 0, 0, 0.25);
   margin: 50px auto;
-  color: white; }
+  color: white;
+  font-weight: 900; }
   .logo .name {
     font-family: 'Archivo Black', sans-serif;
     font-size: 7vw;

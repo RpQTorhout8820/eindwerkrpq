@@ -1,12 +1,39 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|Roboto:100,400|Baloo+Da&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Quicksand:300,700|Roboto:100,400|Baloo+Da&display=swap');
+
+
+body {
+    font-family:  'Quicksand', sans-serif;
+    font-size: 90%;
+    font-weight: 504;
+    line-height: 1.70;
+    color:  rgb(95, 94, 94);
+}
+
+.container{
+    max-width: 95vw;
+    margin: auto;
+  }
+
+img.responsive {
+    display: block;
+    max-width: 100%;
+    height: auto; 
+}
+
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 
 .baloo{
     font-family: 'Baloo Da', cursive;
     color: gray;
     font-size: 28px;
-   
+ 
 }
-
 
 .robot1{
     font-family: 'Roboto', sans-serif;
@@ -42,7 +69,7 @@
 
    }
    .robot2ww{
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
    color: white;
    font-size: 40px;
    font-weight: 100;
@@ -59,7 +86,7 @@
    }
 
    .robot2s{
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
    color: white;
    font-size: 40px;
    font-weight: 100;
@@ -77,7 +104,7 @@
 
 
    .robot2d{
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
    color: white;
    font-size: 40px;
    font-weight: 100;
@@ -107,3 +134,12 @@
 
 }
 
+h1{
+    font-weight: 505;
+    font-size: 2em;
+    color: black;
+}
+
+h2{
+    font-weight: 505;
+}

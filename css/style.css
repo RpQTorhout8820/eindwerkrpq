@@ -1,18 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Archivo+Black&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Anton|Roboto:100,400|Baloo+Da&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton|Quicksand:300,700|Roboto:100,400|Baloo+Da&display=swap");
 @media only screen and (max-width: 576px) {
-  .contact {
-    padding-top: 250px;
-    background-color: yellow; } }
-@media only screen and (min-width: 1200px) {
-  .card {
-    width: 500px; } }
+  body {
+    font-size: 110%; } }
 .druk {
   color: white;
   background-color: rgba(220, 53, 69, 0.85); }
 
 .web {
-  color: white; }
+  color: white;
+  background-color: rgba(0, 123, 255, 0.8); }
 
 .convert {
   color: white;
@@ -60,6 +56,115 @@ a#link6:hover {
   color: white;
   background-color: #17a2b8; }
 
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 90%;
+  font-weight: 504;
+  line-height: 1.70;
+  color: #5f5e5e; }
+
+.container {
+  max-width: 95vw;
+  margin: auto; }
+
+img.responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+td img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.baloo {
+  font-family: 'Baloo Da', cursive;
+  color: gray;
+  font-size: 28px; }
+
+.robot1 {
+  font-family: 'Roboto', sans-serif;
+  color: #ef5350;
+  font-size: 112px;
+  font-weight: 100;
+  line-height: 70px;
+  margin-top: 250px; }
+
+.robot2 {
+  font-family: 'Roboto', sans-serif;
+  color: #ef5350;
+  font-size: 30px;
+  font-weight: 10;
+  line-height: 30px; }
+
+.robot2w {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 50px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(0, 123, 255, 0.55); }
+  .robot2w:hover {
+    background-color: #007bff; }
+
+.robot2ww {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 50px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.25); }
+  .robot2ww:hover {
+    background-color: #ffc107; }
+
+.robot2s {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 50px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(40, 167, 69, 0.25); }
+  .robot2s:hover {
+    background-color: rgba(40, 167, 69, 0.25); }
+
+.robot2d {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 50px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(128, 128, 128, 0.65); }
+  .robot2d:hover {
+    background-color: #dc3545; }
+
+.icoon {
+  font-size: 50px;
+  color: white; }
+
+.icoon__primary {
+  color: #007bff;
+  text-align: center; }
+
+h1 {
+  font-weight: 505;
+  font-size: 2em;
+  color: black; }
+
+h2 {
+  font-weight: 505; }
+
 .navbar {
   background-color: white;
   position: fixed;
@@ -73,7 +178,6 @@ ul li a {
   color: #fff;
   background: url("../img/zethaak.png") no-repeat 0 0;
   background-size: cover;
-  background-attachment: fixed;
   height: 100vh;
   width: 100vw; }
   .jumbotron h2 {
@@ -171,7 +275,7 @@ a.custom-card:hover {
     margin: 0 10px 20px 10px; }
 
 .tab2 {
-  height: 500px;
+  max-height: 500px;
   width: 100%; }
 
 footer {
@@ -194,86 +298,6 @@ footer {
 
 .navbar-light {
   color: white; }
-
-.baloo {
-  font-family: 'Baloo Da', cursive;
-  color: gray;
-  font-size: 28px; }
-
-.robot1 {
-  font-family: 'Roboto', sans-serif;
-  color: #ef5350;
-  font-size: 112px;
-  font-weight: 100;
-  line-height: 70px;
-  margin-top: 250px; }
-
-.robot2 {
-  font-family: 'Roboto', sans-serif;
-  color: #ef5350;
-  font-size: 30px;
-  font-weight: 10;
-  line-height: 30px; }
-
-.robot2w {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 40px;
-  font-weight: 100;
-  line-height: 50px;
-  text-align: center;
-  width: 60%;
-  margin: auto;
-  background-color: rgba(0, 123, 255, 0.55); }
-  .robot2w:hover {
-    background-color: #007bff; }
-
-.robot2ww {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 40px;
-  font-weight: 100;
-  line-height: 50px;
-  text-align: center;
-  width: 60%;
-  margin: auto;
-  background-color: rgba(255, 255, 255, 0.25); }
-  .robot2ww:hover {
-    background-color: #ffc107; }
-
-.robot2s {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 40px;
-  font-weight: 100;
-  line-height: 50px;
-  text-align: center;
-  width: 60%;
-  margin: auto;
-  background-color: rgba(40, 167, 69, 0.25); }
-  .robot2s:hover {
-    background-color: rgba(40, 167, 69, 0.25); }
-
-.robot2d {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 40px;
-  font-weight: 100;
-  line-height: 50px;
-  text-align: center;
-  width: 60%;
-  margin: auto;
-  background-color: rgba(128, 128, 128, 0.65); }
-  .robot2d:hover {
-    background-color: #dc3545; }
-
-.icoon {
-  font-size: 50px;
-  color: white; }
-
-.icoon__primary {
-  color: #007bff;
-  text-align: center; }
 
 .timeline {
   list-style: none;

@@ -9,7 +9,7 @@ body {
     color:  rgb(95, 94, 94);
 }
 
-
+//font voor buttons
 .qs {
     font-family:  'Quicksand', sans-serif;
     font-size: 90%;
@@ -18,19 +18,19 @@ body {
    
 }
 
-
-
 .container{
     max-width: 95vw;
     margin: auto;
   }
 
+//responsive afbeelding 
 img.responsive {
     display: block;
     max-width: 100%;
     height: auto; 
 }
 
+//responsive afbeelding in tabel
 td img{
     display: block;
     margin-left: auto;
@@ -47,9 +47,9 @@ td img{
 }
 
 .robot1{
-    font-family: 'Roboto', sans-serif;
-    color: $rood;
-    font-size: 112px;
+   font-family: 'Roboto', sans-serif;
+   color: $rood;
+   font-size: 112px;
    font-weight: 100;
    line-height:70px;
    margin-top: 250px;
@@ -64,7 +64,7 @@ td img{
    }
 
 .robot2w{
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
    color: white;
    font-size: 40px;
    font-weight: 100;
@@ -80,7 +80,7 @@ td img{
 
    }
    .robot2ww{
-font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
    color: white;
    font-size: 40px;
    font-weight: 100;
@@ -97,7 +97,7 @@ font-family: 'Roboto', sans-serif;
    }
 
    .robot2s{
-font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
    color: white;
    font-size: 40px;
    font-weight: 100;
@@ -115,15 +115,15 @@ font-family: 'Roboto', sans-serif;
 
 
    .robot2d{
-   font-family: 'Roboto', sans-serif;
-   color: white;
-   font-size: 40px;
-   font-weight: 100;
-   line-height: 50px;
-   text-align: center;
-   width: 60%;
-   margin: auto;
-   background-color: $danger__transparent;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 40px;
+        font-weight: 100;
+        line-height: 50px;
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        background-color: $danger__transparent;
 
    &:hover{
     background-color: $danger;
@@ -131,13 +131,10 @@ font-family: 'Roboto', sans-serif;
 
    }
 
-
-
 .icoon{
     font-size: 50px;
     color: white;
 }
-
 
 .icoon__primary{
     color: $primary;
